@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Stormtrooper",
+      "precio": "60,00",
+      "imagen": "./assets/stormtrooper.png"
+    },
+    {
+      "id": "a37c",
+      "nombre": "Crash Bandicoot",
+      "precio": "306,77",
+      "imagen": "https://m.media-amazon.com/images/I/71nPR609nrL._AC_SL1500_.jpg"
+    }
+  ]
+}

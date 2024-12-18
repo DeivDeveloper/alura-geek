@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="assets/gamepad.ico" />
+  </head>
+  <body>
+    <!-- Banner -->
+    <section class="bannerSection">
+      <img src="assets/aluraGeek.svg" alt="AluraGeek" />
+    </section>
+
+    <!-- Contenedor Principal -->
+    <section class="productContainer">
+      <!-- Lista de Productos -->
+      <div class="productListWrapper">
+        <h2 class="productTitle">MIS PRODUCTOS</h2>
+        <div class="productGrid">
+          <div class="productRow" data-lista>
+            <!-- <div class="productCard">
+              <img
+                src="assets/stormtrooper.png"
+                class="productImg"
+                alt="Stormtrooper"
+              />
+              <p class="productName">Stormtrooper</p>
+              <div class="flex_row">
+                <p class="productPrice">$ 60,00</p>
+                <img src="assets/papelera.svg" class="image4" alt="Eliminar" />
+              </div>
+            </div>
+            <div class="productCard">
+              <img
+                src="assets/gameboy.png"
+                class="productImg"
+                alt="Game Boy Classic"
+              />
+              <p class="productName">Game Boy Classic</p>
+              <div class="flex_row">
+                <p class="productPrice">$ 60,00</p>
+                <img src="assets/papelera.svg" class="image4" alt="Eliminar" />
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <div class="addProductForm">
+        <h2 class="formTitle">AGREGAR PRODUCTO:</h2>
+        <form data-formulario>
+          <div class="content_box">
+            <input
+              type="text"
+              class="nameInput"
+              placeholder="nombre..."
+              data-nombre
+            />
+          </div>
+          <div class="content_box">
+            <input
+              type="text"
+              class="priceInput"
+              placeholder="precio..."
+              data-precio
+            />
+          </div>
+          <div class="content_box">
+            <input
+              type="text"
+              class="imageInput"
+              placeholder="imagen..."
+              data-imagen
+            />
+          </div>
+          <div class="flex_row3">
+            <button type="submit" class="submitBtn">Enviar</button>
+            <button type="reset" class="clearBtn">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footerSection">
+      <img src="assets/aluraGeek.svg" alt="AluraGeek" />
+      <p>DESARROLLADO POR DAVID SERNA</p>
+      <p>ALURA LATAM - 2024</p>
+    </footer>
+    <script src="js/mostrarProductos.js" type="module"></script>
+    <script src="js/agregarProducto.js" type="module"></script>
+  </body>
+</html>
